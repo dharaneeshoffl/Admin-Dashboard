@@ -11,12 +11,10 @@ export default function Settings() {
         space-y-8
       "
     >
-      {/* PAGE TITLE */}
+      
       <h1 className="text-2xl font-semibold text-gray-800">Settings</h1>
 
-      {/* ===================== */}
-      {/* PROFILE SETTINGS */}
-      {/* ===================== */}
+     
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -48,9 +46,7 @@ export default function Settings() {
         </div>
       </motion.div>
 
-      {/* ===================== */}
-      {/* SECURITY SETTINGS */}
-      {/* ===================== */}
+    
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -83,9 +79,7 @@ export default function Settings() {
         </div>
       </motion.div>
 
-      {/* ===================== */}
-      {/* PREFERENCES */}
-      {/* ===================== */}
+    
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -124,9 +118,7 @@ export default function Settings() {
         </div>
       </motion.div>
 
-      {/* ===================== */}
-      {/* SAVE BUTTON */}
-      {/* ===================== */}
+     
       <div className="flex justify-end">
         <button className="flex items-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition">
           <FiSave />
