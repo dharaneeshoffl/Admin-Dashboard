@@ -65,7 +65,7 @@ export default function Users() {
     <div className="space-y-6">
       <h1 className="text-2xl font-semibold text-gray-800">Users</h1>
 
-      {/* ================= DESKTOP TABLE ================= */}
+    
       <div className="hidden md:block bg-white border border-slate-200/40 rounded-xl overflow-hidden">
         <table className="w-full table-fixed text-sm">
           <thead className="bg-slate-100 text-slate-700">
@@ -109,7 +109,7 @@ export default function Users() {
         </table>
       </div>
 
-      {/* ================= MOBILE CARDS (FIXED) ================= */}
+     
       <div className="flex flex-col gap-4 md:hidden">
         {users.map((user) => (
           <motion.div
@@ -134,10 +134,10 @@ export default function Users() {
               </div>
             </div>
 
-            {/* DIVIDER */}
+            
             <div className="my-3 h-px bg-slate-200/60" />
 
-            {/* BOTTOM */}
+           
             <div className="flex items-center justify-between text-sm">
               <span className="text-gray-500">{user.role}</span>
               <span
