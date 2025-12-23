@@ -18,9 +18,9 @@ export default function Navbar({ setSidebarOpen }) {
         z-50
       "
     >
-      {/* LEFT */}
+      
       <div className="flex items-center gap-3">
-        {/* Mobile Sidebar Toggle */}
+        
         <button
           onClick={() => setSidebarOpen(true)}
           className="md:hidden text-xl text-white hover:opacity-80 transition"
@@ -33,15 +33,15 @@ export default function Navbar({ setSidebarOpen }) {
         </h1>
       </div>
 
-      {/* RIGHT */}
+      
       <div className="flex items-center gap-4">
-        {/* Notification */}
+        
         <button className="relative text-xl text-white hover:opacity-80 transition">
           <FiBell />
           <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-500 rounded-full" />
         </button>
 
-        {/* Profile */}
+        
         <div className="flex items-center gap-2 cursor-pointer text-white">
           <div className="w-9 h-9 rounded-full bg-slate-600 flex items-center justify-center">
             <FiUser className="text-lg" />
