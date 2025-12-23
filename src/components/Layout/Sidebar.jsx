@@ -11,7 +11,7 @@ const menu = [
 export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
   return (
     <>
-      {/* LIGHT OVERLAY (mobile) */}
+      
       <AnimatePresence>
         {sidebarOpen && (
           <motion.div
@@ -24,7 +24,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
         )}
       </AnimatePresence>
 
-      {/* MOBILE SIDEBAR */}
+      
       <AnimatePresence>
         {sidebarOpen && (
           <motion.aside
@@ -65,7 +65,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
         )}
       </AnimatePresence>
 
-      {/* DESKTOP SIDEBAR (ALWAYS OPEN) */}
+      
       <aside className="hidden md:flex w-72 bg-white border-r flex-col">
         <div className="p-6 font-bold text-lg">Admin Panel</div>
 
